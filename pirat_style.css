@@ -1,0 +1,238 @@
+/* Color directory
+Blue - #64B6FF (Background color)
+White - #EEEAE4 (Text & Button color)
+Red - #CD0D24 (Button text color)
+
+
+
+Base styles */
+
+body {
+    background-color: #64B6FF;
+    text-align: center;
+    padding: 5%;
+    color: #EEEAE4;
+    font-family: 'Chewy', cursive;
+}
+
+.nextbutton {
+    background-color: #EEEAE4;
+    color: #CD0D24;
+    width: fit-content;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.nextbutton__title {
+    font-size:30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Pirat_intro.html styles */
+
+.nextbutton--grid {
+    background-color: #EEEAE4;
+    color: #CD0D24;
+    width: fit-content;
+    margin: auto;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.nextbutton__image {
+    width: 100px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.slider__image {
+    width: 60%;
+}
+
+/* Pirat_skan.html styles */
+
+.illustration {
+    width: 100%;
+}
+
+.pirat__titel {
+    font-size: 40px;
+}
+
+.pirat_stortitel {
+    font-size: 70px;
+}
+
+/* Pirat_qr.html styles */
+
+.qr__title {
+    font-size: 150px;
+    line-height: 0px;
+}
+
+.qr__billede {
+    width: 80%;
+}
+
+.qr__title2 {
+    font-size: 100px;
+}
+
+/* Pirat_angrib.html style */
+
+.angrib__billede {
+    width: 100%;
+}
+
+/* Pirat_1.html style */
+
+
+.svarbutton {
+    background-color: #EEEAE4;
+    color: #CD0D24;
+    width: fit-content;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.svarbutton__title {
+    font-size:30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* skeleton_gift.html style */
+
+.skeleton {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.hand__gift {
+    width: 30%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    padding-top: 50px;
+}
+
+/* pusle_1.html style */
+
+.bpusle {
+    width: 30%;
+}
+
+.puslebutton {
+    background-color: #EEEAE4;
+    color: #CD0D24;
+    width: fit-content;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.pusle__title {
+    font-size:30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+
+/* Media Query */
+
+/* TABLET VERSION */
+
+@media screen and (min-width: 750px) {
+    
+    .wrapper__intro {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    
+    .nextbutton__title {
+        font-size:60px;
+    }
+    
+    .wrapper__skan {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        align-items: center;
+    }
+
+    .wrapper__qr {
+        display: grid;
+        grid-template-areas:
+        "qr qr find"
+        "qr qr scan";
+    }
+
+    .qr__title {
+        grid-area: find;
+    }
+
+    .qr__billede {
+        grid-area: qr;
+    }
+
+    .qr__title2 {
+        grid-area: scan;
+    }
+
+    .wrapper__angrib {
+        display: grid;
+        grid-template-columns: 4fr 2fr;
+        align-items: center;
+    }
+
+    .angrib__billede {
+        width: 70%;
+        justify-self: center;
+    }
+
+    .wrapper__pirat_1 {
+        display: grid;
+        grid-template-columns: 5fr 3fr;
+        align-items: center;
+    }
+
+    .svar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
+    }
+    
+
+    .pirat {
+        width: 80%;
+    }
+
+    .wrapper__skeleton_1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .skeleton, .hand__gift {
+        width: 100%;
+    }
+
+    .wrapper__pusle_1 {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        align-items: center;
+    }
+
+    .bpusle {
+        width: 80%;
+    }
+}

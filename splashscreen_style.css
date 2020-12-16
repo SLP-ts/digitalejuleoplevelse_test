@@ -1,0 +1,25 @@
+body {
+    background-color: #FF0001;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 5%;
+    color: #EEEAE4;
+    font-family: 'Chewy', cursive;
+    background-image: url('assets/lightleak.png');
+}
+
+main {
+    display: grid;
+    justify-content: center;
+}
+
+.splashscreen__title {
+    text-shadow: 2px 2px 8px #030303;
+    font-size:50px;
+    padding-top: 100px;
+}
+
+.bouncinggift {
+    width: 100%;
+    justify-self: center;
+}

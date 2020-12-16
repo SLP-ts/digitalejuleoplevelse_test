@@ -1,0 +1,29 @@
+body {
+    background-color: #219A4D;
+    text-align: center;
+    padding: 5%;
+    color: #D4AE48;
+    font-family: 'Chewy', cursive;
+    
+}
+main{
+    border-style: dotted;
+    border-radius: 20px;
+    color: #ffffff;
+    
+}
+
+h1 {
+    color: #D4AE48;
+    font-size:70px;
+    padding: 25px;
+    text-shadow: 2px 2px 8px #030303;
+}
+h2 {
+    color: #D4AE48;
+    font-size:30px;
+    padding: 50px;
+    text-shadow: 2px 2px 8px #030303;
+
+}
+

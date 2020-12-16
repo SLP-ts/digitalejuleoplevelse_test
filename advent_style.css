@@ -1,0 +1,38 @@
+body {
+    
+    background-color: #ffffff;
+    text-align: center;
+    padding: 5%;
+    font-family: 'Chewy', cursive;
+   
+}
+main{
+    border-style: dotted;
+    border-radius: 20px;
+    color: #CD0D24;
+}
+
+h1 {
+    font-size:50px;
+    position: relative;
+    text-shadow: 2px 2px 8px #030303;
+}
+
+image {
+    z-index: -1;
+}
+.advent {
+    color: #CD0D24;
+    border-style: dotted;
+    border-radius: 20px;
+}
+.kapitelbutton__title {
+    
+        color: #219A4D;
+        font-size:30px;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 25;
+        z-index: 10;
+    }
+    
